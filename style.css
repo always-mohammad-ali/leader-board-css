@@ -1,0 +1,125 @@
+/* common-all */
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    background-color: #9F9F9F;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+}
+.section-1{
+    
+    background-color: white;
+    width: 870px;
+    height: 679px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+    
+    
+    
+    
+  
+}
+
+
+/* all-players style */
+.section-title {
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 30px;
+    color: aqua;
+}
+.all-players{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin: 30px;
+  
+    
+   
+    
+    
+  
+
+}
+
+/* players */
+.players{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.players img{
+    width: 56px;
+    height: 56px;
+
+    
+    
+}
+hr{
+    border: 2.5px solid aqua;
+}
+.all-h3{
+    margin-left: 15px;
+    font-size: 18px;
+}
+/* -------------TOP BLOGS STYLE----------- */
+.all-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-pic{
+    width: 177px;
+    height: 117px;
+    
+}
+.blog{
+    display: flex;
+    margin-left: 30px;
+}
+.blog-title{
+    font-size: 20px;
+    width: 164px;
+}
+.blog-author{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.text{
+    margin-left: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: aqua;
+}
+/* course-all */
+.course-all{
+    display: flex;
+}
+
+.course-image img{
+    width: 224px;
+    height: 105px;
+    
+}
+.about-course{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+    
+
+
+
+
+
